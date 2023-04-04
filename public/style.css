@@ -1,0 +1,176 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(187, 216, 241);
+    border-radius: 10px;
+    text-decoration: none
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+
+    color: rgb(20, 9, 41);
+}
+
+header {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+header img {
+    margin: 20px 100px 0 20px;
+}
+
+header nav {
+    margin: 20px 100px 0 20px;
+
+}
+
+.whiteCard {
+    background-color: aliceblue;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(196, 192, 202);
+    color: white;
+    text-align: center;
+}
+
+button {
+    width: 7rem;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+
+}
+
+button:hover {
+    background-color: rgb(252, 252, 252);
+    cursor: pointer;
+}
+
+.labelInput {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    display: flex;
+    text-align: center;
+    margin: auto;
+
+}
+
+.container {
+    width: 10%;
+    border: solid 1px;
+    padding: 20px;
+}
+
+.productsContainer {
+    margin: auto;
+    min-width: 20rem;
+    max-width: 60%;
+    border: solid 1px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.wrrapper {
+    margin-top: 30px;
+    border: solid 1px;
+    padding: 20px;
+
+}
+
+.flash {
+    color: red;
+    background-color: black;
+}
+
+.storeNames {
+    margin: auto;
+    text-align: center;
+    min-width: 10rem;
+    max-width: 40%;
+    border: solid 1px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.product {
+    min-width: 10rem;
+    margin: 20px 30px;
+    border: solid 1px;
+    padding: 10px;
+}
+
+.product input {
+    height: 1.5rem;
+    width: 2rem;
+}
+
+.addProduct {
+    /* background-color: aliceblue; */
+    /* width: 10%; */
+    border: solid 1px;
+    padding: 20px;
+
+}
+
+
+.center {
+    margin: auto;
+    width: 25%;
+
+}
+
+input {
+    margin-bottom: 10px;
+    height: 1.3rem;
+    max-width: 15rem;
+    min-width: 5rem;
+    background-color: aliceblue;
+
+}
+
+.tagsLine {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.flexy {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.search button {
+    width: 4rem;
+    border-radius: 20px;
+    margin-right: 20px;
+    /* padding: 10px 10px; */
+
+}
+
+.labelInput {
+    display: flex;
+    justify-content: space-between;
+}
